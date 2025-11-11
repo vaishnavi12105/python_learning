@@ -1,8 +1,9 @@
 #1 for snake
 #-1 for water
 #0 for gun
+import random
 
-computer=-1 #by default
+computer=random.choice([-1,0,1])
 user=input("enter your choice: ")
 userdict={
     "s":1,
